@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55621" started-at="2019-11-13T11:15:04Z" finished-at="2019-11-13T11:16:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55621" started-at="2019-11-13T11:15:04Z" finished-at="2019-11-13T11:16:00Z">
+      <class name="Hotwire_search_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Hotwire_search_Test@46d56d67]" name="setup" is-config="true" duration-ms="17859" started-at="2019-11-13T01:15:06Z" finished-at="2019-11-13T01:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Hotwire_search_Test@46d56d67]" name="Search" duration-ms="36102" started-at="2019-11-13T01:15:24Z" data-provider="getData" finished-at="2019-11-13T01:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SFO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LAX]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Evening]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Morning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:Hotwire_search_Test@46d56d67]" name="quit" is-config="true" duration-ms="0" started-at="2019-11-13T01:16:00Z" finished-at="2019-11-13T01:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- Hotwire_search_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
